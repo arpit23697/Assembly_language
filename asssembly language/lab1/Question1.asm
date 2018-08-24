@@ -1,0 +1,35 @@
+.data
+
+.text
+.globl main
+
+main :
+	li $t0, 0xF
+	li $t1, 0xF
+	li $t2, 0xF
+	li $t3, 0xF
+	li $t4, 0xF
+	li $t5, 0xF
+	li $t6, 0xF
+	li $t7, 0xF
+	li $t8, 0xF
+	li $t9, 0xF
+	
+	li $s0, 0xA
+	li $s1, 0xA
+	li $s2, 0xA
+	li $s3, 0xA
+	li $s4, 0xA
+	li $s5, 0xA
+	li $s6, 0xA
+	li $s7, 0xA
+	
+	move $s4 , $t6
+	move $s7 , $t5
+
+li $v0, 10
+syscall
+
+	
+
+
